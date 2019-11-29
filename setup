@@ -1,0 +1,30 @@
+Initial
+1. Create your project folder. npm init, git init, and make a .gitignore file.
+2. .gitignore file
+  node_modules
+  bundle.js
+  bundle.js.map
+
+Root
+1. setup .babelrc
+2. setup webpack.config.js
+
+Client Folder
+1. index.js (entry point for browser)
+2. install react, react-dom
+
+Public Folder
+1. index.html (that will be served to browser)
+2. bundle.js - lives here (set up on webpack.config.js)
+
+Server Folder
+1. set up index.js.
+2. Express
+3. Morgan - logging middleware
+4. static file-serving middleware
+5. body-parser - body parsing middleware
+6. api routes
+7. 404 error handler
+8. send index.html
+9. error 500 handler
+10. port listener

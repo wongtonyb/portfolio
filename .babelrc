@@ -1,0 +1,5 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"]
+}
+
+//babel translates webpack for browser to understand
